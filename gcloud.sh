@@ -30,5 +30,5 @@ function install_gcloud {
 }
 
 function uninstall_gcloud {
-    rm -rf $HOME/gcloud-cloud-sk
+    rm -rf $HOME/google-cloud-sdk
 }
