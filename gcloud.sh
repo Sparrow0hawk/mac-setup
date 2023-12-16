@@ -27,8 +27,14 @@ function install_gcloud {
 
     # will be prompted for inputs
     ./install.sh
+
+    # add bin to PATH
+    echo 'export PATH="$HOME/google-cloud-sdk/bin:$PATH"' >> ~/.bash_profile
 }
 
 function uninstall_gcloud {
     rm -rf $HOME/google-cloud-sdk
+
+    grep -v 'export PATH="$HOME/google-cloud-sdk/bin:$PATH"' ~/.bash_profile > ~/.bash_profile
 }
+
