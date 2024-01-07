@@ -1,5 +1,7 @@
 # MacBook setup
 
+A not-quite-perfect list of scripts used to configure tools on my personal MacBook.
+
 ## Python
 
 Also worth adding a `~/.pip/pip.conf` containing[^1]:
