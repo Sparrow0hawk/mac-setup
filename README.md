@@ -2,7 +2,19 @@
 
 A not-quite-perfect list of scripts used to configure tools on my personal MacBook.
 
-## Python
+## Usage
+
+Standard use of script is:
+
+```bash
+bash SCRIPTNAME.sh install
+
+bash SCRIPTNAME.sh uninstall
+```
+
+## Extras
+
+### Python
 
 Also worth adding a `~/.pip/pip.conf` containing[^1]:
 
