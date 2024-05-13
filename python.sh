@@ -5,7 +5,7 @@
 
 set -e
 
-PY_VER=3.12.0
+PY_VER=3.12.3
 
 if [ $# -eq 0 ]
 	then
